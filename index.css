@@ -1,0 +1,400 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0px;
+    font-family: "montserrat";
+}
+.header i{
+    display: none;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 60px;
+    background-color: rgb(255, 254, 254);
+    align-items: center;
+    
+}
+.header ul{
+    display: flex;
+    gap: 30px;
+    font-size: 30px;
+    list-style: none;
+}
+.btnlogin{
+    background-color: #204E51;
+    padding: 15px 45px;
+    border: none;
+    border-radius: 9px;
+    font-size: 22px;
+    color: white;
+    margin-right: 20px;
+}
+.btnsign{
+    background-color: white;
+    background-color: transparent;
+    padding: 13px 45px;
+    border: 2px solid #204E51;
+    border-radius: 10px;
+    font-size: 22px;
+}
+.hero{
+    height: 570px;
+    text-align: center;
+    padding: 100px 100px;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6) ),  url(assets/assets/image\ 1.png);
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+.hero h1{
+    padding-top: 40px;
+    font-size: 70px;
+}
+.wac{
+    padding-top: 60px;
+}
+.wac .btnsign{
+    color: black;
+    background-color: white;
+}
+
+.parent{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+    position: relative;
+}
+.parent-left{
+    width: 500px;
+   
+}
+.parent-left p{
+padding: 20px ;
+}
+
+.parent-left h1{
+    font-size: 60px
+}
+.parent-right h2{
+    position: absolute;
+    padding: 20px 20px;
+    background-color: white;
+    border-radius: 20px;
+    bottom: 80px;
+    left:  850px;
+    
+
+}
+    
+.parent-right img{
+    height: 500px;
+    width: 500px;
+}
+.service-title{
+    text-align: center;
+    margin: 60px 0px;
+}
+.service-title h1{
+    font-size: 70px;
+
+}
+.service-title p{
+    margin: 20px 240px;
+    font-size: 20px;
+}
+.service-icons{
+    display: flex;
+    justify-content: center;
+}
+.service1{
+    width: 250px;
+    height: 300px;
+    background-color:white;
+    box-shadow: 0px 3px 6px gray;
+    margin: 20px;
+    border-radius: 12px;
+    text-align: center;   
+    
+}
+.service1 h1{
+    padding-top: 50px;
+}
+
+.features h1{
+    font-size: 65px;
+    margin: 20px 300px;   
+}
+.features p{
+    margin: 20px 200px;
+    font-size: 20px;
+
+}
+.Product1{
+    height: 400px;
+    width: 280px;
+    background-color: white;
+    margin: 20px ;
+    border-radius: 8px;
+    box-shadow: 0px 3px 6px black;
+    text-align: center;
+    padding-top: 40px;
+}
+.Product{
+    display: flex;
+    justify-content: center;
+}
+.parent1 p{
+    font-size: 20px;
+    height: 50px;
+
+
+
+}
+.sustain{
+    height: 400px;
+    color: white;
+    padding-top: 140px;
+    padding-left: 90px;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6) ),  url(assets/assets/image\ 1.png);
+    
+}
+.Benefits-left{
+    width: 600px;
+    font-size: 22px;
+    margin-top: 80px;
+    margin-left: 200px;
+
+}
+.Benefits-rights{
+    background-color: #204E51;
+    color: white;
+    width: 600px;
+    height: 600px;
+    border-radius: 50px;
+
+}
+.Benefits{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 80px;
+}
+
+.t-parent{
+    display: grid;
+    grid-template-columns: 50px 900px 50px;
+    gap: 40px;
+    justify-content: center;
+}
+.review{
+    width: 100%;
+    height: 400px;
+    background-color: #204E51;
+}
+.review i{
+    color:  #204E51;
+    font-size: 50px;
+    margin-top: 200px;
+    background-color:white;
+    box-shadow: 0px 0px 6px gray;
+    padding: 10px;
+    
+}
+#r{
+    background-color: white;
+}
+.why{
+    justify-content: space-between;
+}
+.person img{
+    width: 300px;
+    height: 200px;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+.person{
+    display: flex;
+    
+}
+.why i{
+   color: orangered;
+   
+}
+.why{
+    padding-bottom: 40px;
+    padding-top: 100px;
+    /* padding: 90px; */
+    color: white;
+}
+.why h1{
+    padding: 10px;
+    padding-right: 100px;
+}
+.why h6{
+    padding: 5px;
+}
+.review2{
+    width: 100%;
+    height: 400px;
+    background-color: #204E51;
+}
+.footer{
+    height: 400px;
+    width: 1350px;
+    background-color: #204E51;
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer-left{
+    padding: 100px 70px;
+    font-size: 22px;
+    color: white;
+}
+.footer-right  {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    font-size: 18px;
+    color: white;
+    
+    
+}
+ul li{
+    list-style: none;
+    padding: 5px;
+}
+
+@media screen and (max-width: 600px) {
+    .header ul{
+        display: none;
+    }
+    .btn{
+        display: none;
+    }
+    .header i{
+        display: block;
+    }
+    .header i{
+        font-size: 50px;
+
+    }
+    .header{
+        padding: 30px;
+    }
+    .hero h1{
+        font-size: 30px;
+    }
+    .hero{
+        padding: 15px;
+    }
+    .hero p{
+        margin: 10px 0px;
+    }
+    .btnlogin{
+    
+        margin-bottom: 30px;
+    }
+    .parent{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .parent-left,.parent-right{
+        width: 300px;
+    }
+    .parent-left h1{
+        font-size: 30px;
+    }
+    /* .parent-right img{
+        width: 300px;
+    } */
+     .parent-right h2{
+        left: 140px;
+        bottom: 40px;
+     }
+     .parent-right img{
+        width: 350px; 
+     }
+     .service-title h1{
+        font-size: 36px;
+     }
+     .service-title p{
+        margin: 10px;
+     }
+     .service-icons{
+        flex-direction: column;
+     }
+     .features h1{
+        font-size: 40px;
+        margin: 10px;
+     }
+     .features p{
+        margin: 10px;
+     }
+     .Product{
+        flex-direction: column;
+     }
+     .sustain{
+        padding: 20px;
+     }
+     .Benefits{
+        flex-direction: column;
+        margin: 0px;
+        padding: 0px;
+     }
+     .Benefits-left {
+       margin: 10px;
+       
+     }
+     .Benefits-left h1{
+        padding: 15px;
+        font-size: 40px;
+     }
+     .Benefits-left p{
+        margin: 10px;
+     }
+     .Benefits-rights{
+       width: 300px;
+     }
+     .review2{
+        flex-direction: column;
+     }
+     .review2{
+        flex-direction: column;
+     }
+     .t-parent{
+        grid-template-columns: 10px 250px 10px;
+     }
+     .review2{
+        height: 200px;
+     }
+     .review2 img{
+        width: 50px;
+        height: 50px;
+     }
+     .review i{
+        font-size: 20px;
+        margin-top: 80px;
+     }
+     .person{
+        margin-top: 10px;
+        margin-right: 0px;
+        margin-left: 10px;
+        gap: 10px;
+        padding-top:  -300px;
+    }
+
+    .why h1{
+        font-size: 10px;
+    }
+    .why p{
+        font-size: 12px;
+        margin: 10px 10px;
+    }
+
+     
+
+}
